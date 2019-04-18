@@ -1,0 +1,21 @@
+2019-04-15 20:50:11,892 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:50:11,893 - INFO - Got next response from server: {'action': 'badaction', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555350611.89355, 'data': 'Action is not supported', 'code': 404}
+2019-04-15 20:50:13,613 - INFO - Client  closed
+2019-04-15 20:51:27,877 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:51:27,880 - INFO - Got next response from server: {'action': 'badaction', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555350687.880703, 'data': 'Action is not supported', 'code': 404}
+2019-04-15 20:51:29,558 - INFO - Client  closed
+2019-04-15 20:52:04,943 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:52:04,945 - INFO - Got next response from server: {'action': 'badaction', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555350724.945671, 'data': 'Action is not supported', 'code': 404}
+2019-04-15 20:52:05,838 - INFO - Client  closed
+2019-04-15 20:52:35,350 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:52:35,353 - INFO - Got next response from server: {'action': 'echo', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555350755.353334, 'data': 'Hello', 'code': 200}
+2019-04-15 20:52:36,647 - INFO - Client  closed
+2019-04-15 20:54:00,792 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:54:00,795 - INFO - Got next response from server: {'action': 'echo', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555350840.794826, 'data': 'Hello', 'code': 200}
+2019-04-15 20:54:02,408 - INFO - Client  closed
+2019-04-15 20:57:52,097 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:57:52,100 - INFO - Got next response from server: {'action': 'echo', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555351072.100046, 'data': 'Hello', 'code': 200}
+2019-04-15 20:57:53,594 - INFO - Client  closed
+2019-04-15 20:58:10,117 - INFO - Client started with 127.0.0.1:7777
+2019-04-15 20:58:10,120 - INFO - Got next response from server: {'action': 'echo', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1555351090.120247, 'data': 'Hello', 'code': 200}
+2019-04-15 20:58:36,610 - INFO - Client  closed
