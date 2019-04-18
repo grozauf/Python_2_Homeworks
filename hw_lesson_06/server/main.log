@@ -1,0 +1,54 @@
+2019-04-18 20:39:03,974 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:39:27,037 - INFO - Client detected ('127.0.0.1', 47012)
+2019-04-18 20:39:27,076 - INFO - Request is valid and processed by controller: get_echo
+2019-04-18 20:39:27,076 - INFO - Send response to client
+2019-04-18 20:39:46,380 - INFO - Server  closed
+2019-04-18 20:42:20,340 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:42:24,678 - INFO - Client detected ('127.0.0.1', 47042)
+2019-04-18 20:42:24,683 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-18T20:42:24.678991', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:42:24,684 - INFO - Request is valid and processed by controller: wrapper
+2019-04-18 20:42:24,684 - INFO - Send response to client
+2019-04-18 20:42:56,619 - INFO - Server  closed
+2019-04-18 20:45:22,154 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:45:28,694 - INFO - Client detected ('127.0.0.1', 47118)
+2019-04-18 20:45:28,700 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-18T20:45:28.694194', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:45:28,701 - DEBUG - get_echo called from <module>
+2019-04-18 20:45:28,701 - INFO - Request is valid and processed by controller: wrapper
+2019-04-18 20:45:28,701 - INFO - Send response to client
+2019-04-18 20:46:37,324 - INFO - Server  closed
+2019-04-18 20:46:38,526 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:46:41,118 - INFO - Client detected ('127.0.0.1', 47120)
+2019-04-18 20:46:41,121 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-18T20:46:41.118933', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:46:41,122 - DEBUG - get_echo called from <module>
+2019-04-18 20:46:41,122 - INFO - Request is valid and processed by controller
+2019-04-18 20:46:41,122 - INFO - Send response to client
+2019-04-18 20:47:01,075 - INFO - Server  closed
+2019-04-18 20:47:58,107 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:48:01,000 - INFO - Client detected ('127.0.0.1', 47122)
+2019-04-18 20:48:01,003 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-18T20:48:01.000213', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:48:01,003 - DEBUG - get_echo called from main
+2019-04-18 20:48:01,003 - INFO - Request is valid and processed by controller
+2019-04-18 20:48:01,003 - INFO - Send response to client
+2019-04-18 20:50:42,235 - INFO - Server  closed
+2019-04-18 20:50:45,168 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:50:48,783 - INFO - Client detected ('127.0.0.1', 47126)
+2019-04-18 20:50:48,783 - DEBUG - validate_request - with args:({'action': 'echo', 'time': '2019-04-18T20:50:48.783480', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:50:48,783 - DEBUG - validate_request called from function: main
+2019-04-18 20:50:48,785 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-18T20:50:48.783480', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:50:48,785 - DEBUG - get_echo called from function: main
+2019-04-18 20:50:48,785 - DEBUG - make_response - with args:({'action': 'echo', 'time': '2019-04-18T20:50:48.783480', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'}, 200, 'Hello'), {}
+2019-04-18 20:50:48,785 - DEBUG - make_response called from function: get_echo
+2019-04-18 20:50:48,785 - INFO - Request is valid and processed by controller
+2019-04-18 20:50:48,785 - INFO - Send response to client
+2019-04-18 20:51:12,692 - INFO - Server  closed
+2019-04-18 20:53:56,108 - INFO - Server started with 127.0.0.1:7777
+2019-04-18 20:54:15,169 - INFO - Client detected ('127.0.0.1', 47138)
+2019-04-18 20:54:15,169 - DEBUG - validate_request - with args:({'action': 'now', 'time': '2019-04-18T20:54:15.169123', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:54:15,169 - DEBUG - validate_request called from function: main
+2019-04-18 20:54:15,173 - DEBUG - get_date_now - with args:({'action': 'now', 'time': '2019-04-18T20:54:15.169123', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'},), {}
+2019-04-18 20:54:15,173 - DEBUG - get_date_now called from function: main
+2019-04-18 20:54:15,173 - DEBUG - make_response - with args:({'action': 'now', 'time': '2019-04-18T20:54:15.169123', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'Hello'}, 200, '2019.04.18'), {}
+2019-04-18 20:54:15,173 - DEBUG - make_response called from function: get_date_now
+2019-04-18 20:54:15,173 - INFO - Request is valid and processed by controller
+2019-04-18 20:54:15,173 - INFO - Send response to client
+2019-04-18 20:54:30,821 - INFO - Server  closed
