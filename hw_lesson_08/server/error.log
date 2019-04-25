@@ -1,0 +1,36 @@
+2019-04-25 20:53:31,685 - INFO - Server started with 127.0.0.1:7777
+2019-04-25 20:53:53,396 - INFO - Client detected ('127.0.0.1', 41878)
+2019-04-25 20:54:16,453 - INFO - Client detected ('127.0.0.1', 41880)
+2019-04-25 20:54:28,942 - DEBUG - validate_request - with args:({'action': 'now', 'time': '2019-04-25T20:54:28.942254', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'hello'},), {}
+2019-04-25 20:54:28,942 - DEBUG - validate_request called from function: handle_request
+2019-04-25 20:54:28,974 - DEBUG - get_date_now - with args:({'action': 'now', 'time': '2019-04-25T20:54:28.942254', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'hello'},), {}
+2019-04-25 20:54:28,974 - DEBUG - get_date_now called from function: handle_request
+2019-04-25 20:54:28,974 - DEBUG - make_response - with args:({'action': 'now', 'time': '2019-04-25T20:54:28.942254', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'hello'}, 200, '2019.04.25'), {}
+2019-04-25 20:54:28,974 - DEBUG - make_response called from function: get_date_now
+2019-04-25 20:54:28,974 - INFO - Request is valid and processed by controller
+2019-04-25 20:55:01,467 - INFO - Server  closed
+2019-04-25 20:57:05,445 - INFO - Server started with 127.0.0.1:7777
+2019-04-25 20:57:12,278 - INFO - Client detected ('127.0.0.1', 41882)
+2019-04-25 20:57:15,885 - INFO - Client detected ('127.0.0.1', 41884)
+2019-04-25 20:57:27,878 - DEBUG - validate_request - with args:({'action': 'echo', 'time': '2019-04-25T20:57:27.877941', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:27,878 - DEBUG - validate_request called from function: handle_request
+2019-04-25 20:57:27,880 - DEBUG - get_echo - with args:({'action': 'echo', 'time': '2019-04-25T20:57:27.877941', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:27,880 - DEBUG - get_echo called from function: handle_request
+2019-04-25 20:57:27,880 - DEBUG - make_response - with args:({'action': 'echo', 'time': '2019-04-25T20:57:27.877941', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'}, 200, 'test'), {}
+2019-04-25 20:57:27,880 - DEBUG - make_response called from function: get_echo
+2019-04-25 20:57:27,880 - INFO - Request is valid and processed by controller
+2019-04-25 20:57:47,814 - DEBUG - validate_request - with args:({'action': 'now', 'time': '2019-04-25T20:57:47.813459', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:47,814 - DEBUG - validate_request called from function: handle_request
+2019-04-25 20:57:47,814 - DEBUG - get_date_now - with args:({'action': 'now', 'time': '2019-04-25T20:57:47.813459', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:47,814 - DEBUG - get_date_now called from function: handle_request
+2019-04-25 20:57:47,814 - DEBUG - make_response - with args:({'action': 'now', 'time': '2019-04-25T20:57:47.813459', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'}, 200, '2019.04.25'), {}
+2019-04-25 20:57:47,814 - DEBUG - make_response called from function: get_date_now
+2019-04-25 20:57:47,814 - INFO - Request is valid and processed by controller
+2019-04-25 20:57:58,582 - DEBUG - validate_request - with args:({'action': 'bad', 'time': '2019-04-25T20:57:58.581712', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:58,582 - DEBUG - validate_request called from function: handle_request
+2019-04-25 20:57:58,582 - ERROR - Action bad does not exits
+2019-04-25 20:57:58,582 - DEBUG - make_404 - with args:({'action': 'bad', 'time': '2019-04-25T20:57:58.581712', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'},), {}
+2019-04-25 20:57:58,582 - DEBUG - make_404 called from function: handle_request
+2019-04-25 20:57:58,583 - DEBUG - make_response - with args:({'action': 'bad', 'time': '2019-04-25T20:57:58.581712', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'data': 'test'}, 404, 'Action is not supported'), {}
+2019-04-25 20:57:58,583 - DEBUG - make_response called from function: make_404
+2019-04-25 20:58:26,614 - INFO - Server  closed
