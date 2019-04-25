@@ -1,0 +1,9 @@
+2019-04-25 20:53:53,396 - INFO - Client started with 127.0.0.1:7777
+2019-04-25 20:54:16,453 - INFO - Client started with 127.0.0.1:7777
+2019-04-25 20:55:07,847 - INFO - Client  closed
+2019-04-25 20:57:12,278 - INFO - Client started with 127.0.0.1:7777
+2019-04-25 20:57:15,885 - INFO - Client started with 127.0.0.1:7777
+2019-04-25 20:57:27,881 - INFO - Got next response from server: {'action': 'echo', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1556215047.880693, 'data': 'test', 'code': 200}
+2019-04-25 20:57:47,815 - INFO - Got next response from server: {'action': 'now', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1556215067.814953, 'data': '2019.04.25', 'code': 200}
+2019-04-25 20:57:58,583 - INFO - Got next response from server: {'action': 'bad', 'user': {'account_name': 'anonim', 'status': 'Yep, I am here!'}, 'time': 1556215078.583333, 'data': 'Action is not supported', 'code': 404}
+2019-04-25 20:58:30,582 - INFO - Client  closed
